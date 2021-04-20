@@ -1,0 +1,23 @@
+{
+  "name": "some-lib-with-grpc",
+  "version": "1.0.0",
+  "description": "Just to try to simulate a pnpm error",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Farenheith/some-lib-with-grpc.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Farenheith/some-lib-with-grpc/issues"
+  },
+  "homepage": "https://github.com/Farenheith/some-lib-with-grpc#readme",
+  "dependencies": {
+    "grpc": "^1.24.6"
+  },
+  "devDependencies": {}
+}
