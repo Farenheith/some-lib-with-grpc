@@ -6,6 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "files": [
+    "bin"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Farenheith/some-lib-with-grpc.git"
@@ -14,6 +17,9 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Farenheith/some-lib-with-grpc/issues"
+  },
+  "bin": {
+    "index_test": "index.js"
   },
   "homepage": "https://github.com/Farenheith/some-lib-with-grpc#readme",
   "dependencies": {
