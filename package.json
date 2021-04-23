@@ -18,5 +18,8 @@
   "bin": {
     "hello_world": "bin/index.js"
   },
-  "homepage": "https://github.com/Farenheith/some-lib-with-grpc#readme"
+  "homepage": "https://github.com/Farenheith/some-lib-with-grpc#readme",
+  "dependencies": {
+    "grpc": "^1.24.7"
+  }
 }
