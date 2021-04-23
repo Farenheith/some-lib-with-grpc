@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Just to try to simulate a pnpm error",
   "main": "index.js",
+  "files": [
+    "bin"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,7 +19,7 @@
     "url": "https://github.com/Farenheith/some-lib-with-grpc/issues"
   },
   "bin": {
-    "hello_world": "index.js"
+    "hello_world": "bin/index.js"
   },
   "homepage": "https://github.com/Farenheith/some-lib-with-grpc#readme",
   "dependencies": {
